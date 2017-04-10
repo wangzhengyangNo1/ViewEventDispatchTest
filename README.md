@@ -1,5 +1,5 @@
 # ViewEventDispatchTest
-View的事件分发测试
+## View的事件分发测试
 
 结果：
 事件执行顺序
@@ -17,3 +17,5 @@ dispatchTouchEvent --> setOnTouchListener --> onTouchEvent
 |ACTION|————————————|————————————|DOWN、MOVE、UP|
 |return|true、false、super.onTouchEvent()|true、false|false|
 |ACTION|————————————|————————————|DOWN|
+
+## ViewGroup的事件分发测试
