@@ -10,8 +10,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.wzhy.vieweventdispatchtest.ActivityMain">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <com.wzhy.vieweventdispatchtest.viewevent.EventButton
+        android:id="@+id/event_btn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:textSize="18sp"
+        android:text="点我"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_centerInParent="true"
+        />
 </RelativeLayout>
